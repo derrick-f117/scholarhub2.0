@@ -1,0 +1,56 @@
+<form action="mailto:derrickabuga1@gmail.com" method="post" enctype="text/plain">
+
+Consolas, 'Courier New', monospace
+
+C:\Users\HP\AppData\Roaming\Code\User\settings.json
+
+<section id="quiz">
+            <form action="mailto:derrickabuga1@gmail.com" method="post" enctype="text/plain">
+                <h2>Form 1</h2>
+                <hr>
+                <fieldset id="questionI1">
+                    <legend>1. What is force?</legend>
+                    <ul>
+                        <li>
+                            <label for="questionI1_answer11" id="questionI1_label">
+                                <input type="radio" name="questionI1_answer11" id="questionI1_answer11"> Push or pull
+                            </label>
+                        </li>
+                        <li>
+                            <label for="questionI2_answer12" id="questionI2_label">
+                                <input type="radio" name="questionI2_answer12" id="questionI2_answer12"> Force per unit area
+                            </label>
+                        </li>
+                        <li>
+                            <label for="questionI3_answer13" id="questionI3_label">
+                                <input type="radio" name="questionI3_answer13" id="questionI3_answer13"> Pull of gravity
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <hr>
+                <fieldset id="questionI2">
+                    <legend>2. What is the SI unit of force?</legend>
+                    <ul>
+                        <li>
+                            <label for="questionI2" id="questionI2_answer21">
+                                <input type="radio" name="questionI2_answer21" id="questionI2_answer21"> newton
+                            </label>
+                        </li>
+                        <li>
+                            <label for="questionI2" id="questionI2_answer22">
+                                <input type="radio" name="questionI2_answer22" id="questionI2_answer22"> Newton
+                            </label>
+                        </li>
+                        <li>
+                            <label for="questionI2" id="questionI2_answer23">
+                                <input type="radio" name="questionI2_answer23" id="questionI2_answer23"> Pound
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <hr>
+                <h2>Form 2</h2>
+
+            </form>
+        </section>

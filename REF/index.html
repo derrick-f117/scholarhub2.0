@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer Checker</title>
+</head>
+<body>
+    <form id="answerForm">
+        <label for="answerTextarea">Enter your answer:</label>
+        <textarea id="answerTextarea" rows="4" cols="50"></textarea>
+        <button type="submit">Check Answer</button>
+    </form>
+    <p id="feedback"></p>
+
+    <script>
+        // Correct answer (you can customize this)
+        const correctAnswer = "Mount Everest is the highest peak in the world.";
+
+        // Get the form and textarea elements
+        const form = document.getElementById("answerForm");
+        const answerTextarea = document.getElementById("answerTextarea");
+        const feedback = document.getElementById("feedback");
+
+        // Event listener for form submission
+        form.addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get the user's answer from the textarea
+            const userAnswer = answerTextarea.value.trim();
+
+            // Check if the user's answer matches the correct answer
+            if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                feedback.textContent = "Correct! Well done!";
+            } else {
+                feedback.textContent = "Oops! Try again.";
+            }
+        });
+    </script>
+</body>
+</html>
